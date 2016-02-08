@@ -1,0 +1,9 @@
+#!/usr/bin/ruby
+
+i = ARGV[0]
+
+l = i.slice(0,2).hex + i.slice(2,2).hex + i.slice(4,2).hex 
+p = 100 * l / 765
+r = "Color luminosity of \"#{i}\" = " + l.to_s + " (" + p.to_s + " %)"
+
+puts r
