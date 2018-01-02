@@ -1,4 +1,4 @@
-# -HP-41-_colorluminosity
+# hp-41_colorluminosity
 Calculate the luminosity of an RGB color
 
 Calculate the total luminosity of an RGB color in the format "FFFFFF" (hex triplet"). This may be useful when creating themes or matching colors with similar luminosity across different color hues.
